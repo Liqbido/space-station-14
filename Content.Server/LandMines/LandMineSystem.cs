@@ -23,7 +23,7 @@ public sealed class LandMineSystem : EntitySystem
     private void HandleStepOnTriggered(EntityUid uid, LandMineComponent component, ref StepTriggeredOnEvent args)
     {
         _popupSystem.PopupCoordinates(
-            Loc.GetString("land-mine-triggered", ("mine", uid)),
+            Loc.GetString("land-mine-triggered", ("mine3", uid)),
             Transform(uid).Coordinates,
             args.Tripper,
             PopupType.LargeCaution);

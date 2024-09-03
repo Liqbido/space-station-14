@@ -34,7 +34,7 @@ public sealed class MousetrapSystem : EntitySystem
             : Loc.GetString("mousetrap-on-deactivate"),
             uid,
             args.User,
-            PopupType.Large);
+            Shared.Popups.PopupType.Large);
 
         UpdateVisuals(uid);
     }

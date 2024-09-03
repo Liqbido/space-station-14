@@ -9,7 +9,7 @@ using Content.Shared.StepTrigger.Systems;
 using Robust.Server.GameObjects;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Player;
-using Content.Shared.Popups;
+
 
 namespace Content.Server.Mousetrap;
 
